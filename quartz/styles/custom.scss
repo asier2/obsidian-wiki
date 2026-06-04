@@ -1,3 +1,14 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+body::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(5, 13, 5, 0) 50%, rgba(74, 246, 38, 0.15) 50%), linear-gradient(90deg, rgba(74, 246, 38, 0.03), rgba(74, 246, 38, 0.01), rgba(74, 246, 38, 0.03));
+  z-index: 99999;
+  background-size: 100% 4px, 6px 100%; /* Tamaño de las líneas */
+  pointer-events: none; /* Permite hacer clic a través del filtro */
+  mix-blend-mode: overlay; /* Cambia cómo se mezcla con los colores de fondo */
+}

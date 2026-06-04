@@ -1,0 +1,1 @@
+Con el AGP Upgrade Assistante de Android Studio saltamos a la versión 9.2.1 de AGP. Debería de compilar y ejecutarse correctamente.

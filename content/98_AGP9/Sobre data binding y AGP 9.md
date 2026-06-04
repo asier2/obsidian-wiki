@@ -1,0 +1,2 @@
+Si usas databinding hay que usar legacy-kapt en lugar de kotlin-kapt.
+[Jon Santamaria Zamora: si usas databinding hay que usar legacy-kapt](https://teams.microsoft.com/l/message/19:5f0fcda8-a309-469a-92ba-3ba6532f5b53_f6ac2405-e58c-47a8-8c82-70622e27ec31@unq.gbl.spaces/1780414793232?context=%7B%22contextType%22%3A%22chat%22%7D)
